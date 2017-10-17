@@ -1,0 +1,50 @@
+body {background-color: yellow;}
+
+h1 {color: red; text-align: center;}
+
+h2 {color: blue; text-align: right; font-style: italic; }
+
+h2:last-of-type {color: blue; text-align: right; font-size: 48px; font-style: italic}
+
+p::first-letter {font-size: 49px; font-style: italic; font-weight: bold;}
+
+a:link {color: red }
+a:visited {color: blue}
+
+@keyframes table1
+{
+from {background: yellow;}
+to {background: green;}
+}
+
+@keyframes table2
+{
+from {color: black;}
+to {color: white;}
+}
+
+@keyframes banner
+{
+    from { left:0;}
+    to { left:calc(100% - 220px);}
+}
+
+#box
+{
+width:220px;
+height:50px;
+background:red;
+position:fixed;
+line-height: 0;
+/* animation part */
+animation: banner 10s 2s infinite alternate;
+}
+
+table { animation: table1 5s 3;
+		border-spacing: 5px }
+
+td {animation: table2 5s 3;
+	padding: 10px}
+
+td:first-child {text-align: center; font-weight: bold;}
+.redtext { color: red; }
