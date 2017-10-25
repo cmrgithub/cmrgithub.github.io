@@ -4,9 +4,9 @@ h1 {color: red; text-align: center;}
 
 h2 {color: blue; text-align: right; font-style: italic; }
 
-h2:last-of-type {color: blue; text-align: right; font-size: 48px; font-style: italic}
+h2:last-of-type {color: blue; text-align: right; font-size: 3em; font-style: italic}
 
-p::first-letter {font-size: 49px; font-style: italic; font-weight: bold;}
+p::first-letter {font-size: 3em; font-style: italic; font-weight: bold;}
 
 a:link {color: red }
 a:visited {color: blue}
