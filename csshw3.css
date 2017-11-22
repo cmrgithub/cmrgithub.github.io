@@ -8,6 +8,11 @@ div {width:760px;
 	border:2px double blue;
 	background-color:#FFF;
 	}
+	
+table {width: 300px;
+		border: solid grey 2px;}
+		
+td, th {border: solid black 1px;}
 
 h1 {color:#330066;
 	text-align: center;}
