@@ -65,6 +65,7 @@ body {
            font-size: 1.2em;
 		   margin-left: 0;
            padding-left: 2px;
+           padding-top: 2px;
            text-align: left;
            font-weight: bold;
            grid-column: 1 / 2; 
@@ -105,7 +106,7 @@ body {
     img {margin:6px;}
 }
 
-#nav ul, #nav li  { margin: 2; 
+#nav ul, #nav li  { margin: 2px; 
                     padding: 0;
                     list-style: none;
                   }
