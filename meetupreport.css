@@ -45,6 +45,11 @@ body {
                grid-row: 3 / 4;
                list-style-position: inside;
              }
+    
+    #nav ul, #nav li  { margin: 2px; 
+                    padding: 2px;
+                    list-style: none;
+                  }
 }
 
 @media only screen and (min-width: 481px)
@@ -104,12 +109,14 @@ body {
               text-align: center;
              }
     img {margin:6px;}
-}
-
-#nav ul, #nav li  { margin: 2px; 
+    
+    #nav ul, #nav li  { margin: 2px; 
                     padding: 0;
                     list-style: none;
                   }
+}
+
+
 
 #nav a {text-decoration: none;
         color: #000033;
