@@ -12,7 +12,7 @@ body {
            width: 100%;
 		   margin: auto;
            background-color: lightgrey;
-           box-shadow: 10px 10px 5px #888888;
+           /*box-shadow: 10px 10px 5px #888888;*/
             }
     
     #nav { background-color: gray; 
