@@ -12,10 +12,10 @@ body {background-color: skyblue;
            width: 100%;
 		   margin: auto;
            background-color: #90C7E3;
-           box-shadow: 10px 10px 5px #888888;
+           /*box-shadow: 10px 10px 5px #888888; NO BOX SHADOW ON MOBILE DEVICES AS IT TAKES AWAY FROM THE ALREADY SMALL SCREEN SPACE */
             }
     
-    #nav { background-color: skyblue; 
+    nav { background-color: skyblue; 
            font-size: 1.2em;
 		   margin-left: 0;
            padding-left: 2px;
@@ -28,7 +28,7 @@ body {background-color: skyblue;
     
     h1 {color:white;
         background-color: #000033;
-        font-family: Georgia, Times New Roman, serif;
+        font-family: Georgia, "Times New Roman", serif;
         font-size: 2.5em;
         grid-column: 1 / 2; 
         grid-row: 1 / 2;
@@ -43,6 +43,7 @@ body {background-color: skyblue;
                grid-row: 3 / 4;
                list-style-position: inside;
              }
+    nav ul, nav li  { margin: 0; padding: 2px}
 }
 
 @media only screen and (min-width: 481px)
@@ -57,7 +58,7 @@ body {background-color: skyblue;
            box-shadow: 10px 10px 5px #888888;
             }
     
-    #nav { background-color: skyblue; 
+    nav { background-color: skyblue; 
            font-size: 1.2em;
 		   margin-left: 0;
            padding-left: 2px;
@@ -70,7 +71,7 @@ body {background-color: skyblue;
     
     h1 {color:white;
         background-color: #000033;
-        font-family: Georgia, Times New Roman, serif;
+        font-family: Georgia, "Times New Roman", serif;
         font-size: 2.5em;
         grid-column: 1 / 3; 
         grid-row: 1 / 2;
@@ -87,6 +88,7 @@ body {background-color: skyblue;
                grid-row: 2 / 3;
                list-style-position: inside;
              }
+    nav ul, nav li  { margin: 0; padding: 0}
 }
 
 @keyframes flying
@@ -110,15 +112,14 @@ body {background-color: skyblue;
         animation-fill-mode: forwards;
     }
 
-#nav ul, #nav li  { margin: 0; padding: 0}
 
-#nav a {text-decoration: none;
+nav a {text-decoration: none;
         color: #000033;
        }
 
-#nav a:visited{color: #344873}
+nav a:visited{color: #344873}
 
-#nav a:hover {color: white;}
+nav a:hover {color: white;}
 
 span { color: #000033;
           font-weight: bold;
@@ -129,12 +130,12 @@ span { color: #000033;
            }
 
 h2 {color:#3399CC;
-    font-family: Georgia, Times New Roman, serif;
+    font-family: Georgia, "Times New Roman", serif;
     text-shadow: 2px 2px;
    }
 
 h3 {color:#000033;
-    font-family: Georgia, Times New Roman, serif;
+    font-family: Georgia, "Times New Roman", serif;
     font-weight: bold;
    }
 
@@ -143,6 +144,6 @@ h3 {color:#000033;
 #contact {font-size: 90%;}
 
 #footer {font-size: 75%;
-         font-family: Georgia, Times New Roman, Times, serif;
+         font-family: Georgia, "Times New Roman", Times, serif;
          font-style: italic
         }
