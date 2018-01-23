@@ -12,7 +12,13 @@ div {width:760px;
     padding: 20px;
 	}
 
-a {margin: 10px;}
+a {margin: 10px;
+    padding:.1em .4em;
+    color: black;
+    background-color:#E0E0E0;
+    font-weight:700;
+    border:2px black solid;
+    text-decoration:none}
 	
 nav {text-align: center}
 
